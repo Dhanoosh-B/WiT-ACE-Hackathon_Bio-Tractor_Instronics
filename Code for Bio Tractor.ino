@@ -1,4 +1,4 @@
-*** Coding part for Bluetooth controling part ***
+//Coding part for Bluetooth controling part
 
 #include <AFMotor.h>
 
@@ -87,7 +87,7 @@ void Stop()
   motor4.run(RELEASE);
 }
 
-*** Coding part for coolent monitoring using IBM Cloud ***
+// Coding part for coolent monitoring using IBM Cloud
 
 const int trigP = 2;  
 const int echoP = 0;  
@@ -118,7 +118,7 @@ Serial.println(distance);
 delay(3000);                        
 }
 
-*** Coding part for electricity monitoring in LCD Display ***
+//Coding part for electricity monitoring in LCD Display 
 
 #include<LiquidCrystal.h>
 #define sensor A0
